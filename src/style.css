@@ -1,3 +1,41 @@
 body {
    background-color: aliceblue;
 }
+
+#scores {
+    display: flex;
+    margin-left: 2%;
+    column-gap: 5%;
+}
+
+#heading {
+   display: flex;
+   align-items: baseline;
+   column-gap: 10px;
+}
+
+.btnstyle {
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 30px;
+  margin-left: 5px;
+}
+
+#submitbtn {
+    float: right;
+}
+
+#scorediv {
+    border: solid 3px black;
+}
+
+.score:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.score {
+    padding: 4px 5px 5px 7px;
+}
