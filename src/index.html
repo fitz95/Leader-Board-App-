@@ -15,7 +15,7 @@
                 <div id="column1">
                     <div id="heading">
                         <h2>Recent scores</h2>
-                        <button class="btnstyle">Refresh</button>
+                        <button class="btnstyle" id="refreshbtn">Refresh</button>
                     </div>
                     <div id="scorediv">
                         <div class="score">Name 100</div>
@@ -29,9 +29,9 @@
                 </div>
                 <div id="column2">
                     <h2>Add your score</h2>
-                    <form action="/action_page.php">
-                        <input type="text" id="fname" name="fname" value="Your name"><br><br>
-                        <input type="text" id="lname" name="lname" value="Your score"><br><br>
+                    <form>
+                        <input type="text" id="name" name="fname" value="Your name" required ><br><br>
+                        <input type="text" id="score" name="lname" value="Your score" required ><br><br>
                         <input type="submit" value="Submit" id="submitbtn">
                     </form> 
                 </div>
