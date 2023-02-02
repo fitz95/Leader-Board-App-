@@ -1,5 +1,6 @@
 import url from './api.js';
 
+const form = document.getElementById('form');
 const name = document.getElementById('name');
 const score = document.getElementById('score');
 
@@ -17,8 +18,7 @@ const addScore = async () => {
       score: score.value,
     }),
   });
-  name.value = '';
-  score.value = '';
+  form.reset();
   const apidata = await data.json();
   return apidata;
 };

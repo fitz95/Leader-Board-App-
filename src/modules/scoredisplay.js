@@ -14,7 +14,7 @@ const scoreDisplay = async () => {
   scorediv.innerHTML = '';
   scores.forEach((data) => {
     scorediv.innerHTML += `
-    <div>${data.user}: ${data.score} </div>
+    <div class="score" >${data.user}: ${data.score} </div>
     `;
   });
 };
