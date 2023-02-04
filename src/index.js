@@ -13,7 +13,9 @@ window.addEventListener('load', () => {
 
 submitbtn.addEventListener('click', (e) => {
   e.preventDefault();
-  if (name.value !== '' || score.value) {
+  console.log('boss');
+  if (name.value !== '' || score.value !== '') {
+    console.log('boss2');
     addscores();
   }
 });
