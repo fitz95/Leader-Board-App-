@@ -20,9 +20,9 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Todo App- <a name="about-project"></a>
+# 📖 Leader Board App- <a name="about-project"></a>
 
-**Todo App -** is a Web App that adds and deletess books.
+**Leader Board App -** is a Web App that adds users and scores.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -37,22 +37,22 @@ VS Code
     <li>CSS</li>
     <li>JS</li>
     <li>Webpack</li>
+   <li>REST API</li> 
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **Add Button**
-- **Remove Button**
-- **An Array of Books**
+- **Add Score**
+- **Refresh Button**
+- **An Array of Scores**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You would be able see later a Live Version of this libray deployed with Github pages below
+You would be able see later a Live Version of this Leader board app deployed with Github pages below
 
-**git https://fitz95.github.io/gamerzone-Page/.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,7 +75,7 @@ Clone this repository to your desired folder:
 
 cd my-folder
 
-git clone https://github.com/fitz95/Portfolio-Microverse-/
+git clone https://github.com/fitz95/Leader-Board-App-.git
 Example commands:
 
 ```sh
