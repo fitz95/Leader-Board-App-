@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
+    <title>Exercise</title>
 </head>
 <body>
     <main>
@@ -15,23 +15,16 @@
                 <div id="column1">
                     <div id="heading">
                         <h2>Recent scores</h2>
-                        <button class="btnstyle">Refresh</button>
+                        <button class="btnstyle" id="refreshbtn">Refresh</button>
                     </div>
                     <div id="scorediv">
-                        <div class="score">Name 100</div>
-                        <div class="score" >Nmae 20</div>
-                        <div class="score">Name 50</div>
-                        <div class="score">Name 78</div>
-                        <div class="score">Name 125</div>
-                        <div class="score">Name 77</div>
-                        <div class="score">Name 42</div>
                     </div>
                 </div>
                 <div id="column2">
                     <h2>Add your score</h2>
-                    <form action="/action_page.php">
-                        <input type="text" id="fname" name="fname" value="Your name"><br><br>
-                        <input type="text" id="lname" name="lname" value="Your score"><br><br>
+                    <form>
+                        <input type="text" id="name" name="fname" placeholder="your name" required ><br><br>
+                        <input type="text" id="score" name="lname" placeholder="your score" required ><br><br>
                         <input type="submit" value="Submit" id="submitbtn">
                     </form> 
                 </div>
